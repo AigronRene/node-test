@@ -5,7 +5,7 @@ const port = 8081;
 // This responds 'Hello World' on the homepage
 
 app.get('/', function (req, res) {
-  res.send('je suis en prod')
+  res.send('je suis en dev')
 })
 
 // Start server
